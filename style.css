@@ -1,6 +1,11 @@
 body{
 background-color: #ffffff;
-
+position:relative;/*one of the tips to fix the white gap proplem*/
+padding-bottom: 400px;/*one of the tips to fix the white gap proplem*/
+min-height: 100vh;/*one of the tips to fix the white gap proplem*/
+}
+main{
+  min-height: calc(100vh -400px - 85px);
 }
 header  {
     margin-top : -20px;
@@ -57,8 +62,13 @@ header  {
     list-style: none;
   }
   .footer{
+    height: 400px;
     background-color: #24262b;
       padding: 70px 0;
+      position: absolute;/*one of the tips to fix the white gap proplem*/
+      bottom: 0;/*one of the tips to fix the white gap proplem*/
+      width: 100%;/*one of the tips to fix the white gap proplem*/
+
   }
   .footer-col{
      width: 25%;
