@@ -1,4 +1,0 @@
-# PartTimeJops
-WebApplications(php)-Project
-
-
